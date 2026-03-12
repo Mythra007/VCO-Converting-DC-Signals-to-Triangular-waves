@@ -5,24 +5,3 @@ The system converts a DC input signal → square wave → triangular oscillation
 A PID controller is used to regulate the system and maintain stable frequency response against disturbances or parameter variations.
 
 The project explores multiple circuit techniques including MOSFET switching, diode switching, differentiation, Schmitt triggers, and op-amp based control systems, making it a comprehensive study of analog oscillator design and feedback control.
-
-DC Input Voltage
-      │
-      ▼
-Comparator / Schmitt Trigger
-(Square Wave Generation)
-      │
-      ▼
-Integrator (Op-Amp)
-(Triangular Wave Generation)
-      │
-      ▼
-Frequency Output
-      │
-      ▼
-Frequency-to-Voltage Converter
-      │
-      ▼
-PID Controller
-      │
-      └──── Feedback to control system
